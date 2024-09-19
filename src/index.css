@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-range-section {
+  background-image: url(./assets/clothes-CMPWJ6JG.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 55.5%;
+  background-color: #18c75a;
+  position: relative;
+  display: flex;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  align-self: flex-end;
+  z-index: 1;
+  position: relative;
+  height: 0;
+  border-radius: 20px;
+  background-position: center center;
+  background-color: #18c75a;
+}
+
+.product-range-section::before {
+  content: "";
+  position: absolute;
+  inset: 0 -1px 0 0;
+  background: url(./assets/clothes-bottom-53OO5ML3.svg) no-repeat bottom -1px right;
+  background-size: 78%;
+  border-bottom-right-radius: 20px;
+}
