@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm relative z-10">
-      <nav className="container mx-auto px-6 py-3">
+      <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
@@ -16,7 +16,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex items-center space-x-6">
             <NavItem title="Catalog" items={['All Products', 'Trending', 'New Arrivals']} />
             <NavItem title="Start selling" />
             <NavItem title="How it works" />

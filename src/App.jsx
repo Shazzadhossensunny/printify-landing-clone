@@ -1,3 +1,4 @@
+import CallToAction from "./components/CallToAction";
 import FeatureSection from "./components/FeatureSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -19,6 +20,7 @@ function App() {
       <ProductRangeSection />
       <ProductShowcase />
       <IntegrationSection />
+      <CallToAction />
       <TestimonialSection />
       <PricingSection />
     </main>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const PricingSection = () => (
-  <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+  <div className="bg-white py-24 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto">
         <div className="bg-gradient-to-r from-teal-800 to-teal-900 rounded-3xl overflow-hidden shadow-xl">
           <div className="flex flex-col lg:flex-row">
             {/* Left side content */}
