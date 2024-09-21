@@ -2,15 +2,6 @@
 
 This project visualizes the integration of various e-commerce platforms with Printify, represented through an interactive and dynamic UI. Using **React** and **Framer Motion**, the integration points are connected by animated lines radiating from a central point.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - **Animated Integration Map**: Displays a central "P" representing Printify with connected e-commerce platforms such as BigCommerce, Wix, Shopify, etc.
